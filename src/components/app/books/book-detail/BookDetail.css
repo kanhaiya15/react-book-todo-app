@@ -1,0 +1,22 @@
+#book-detail .book-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+#book-detail .book-title {
+  padding-bottom: 15px;
+}
+#book-detail .book-author {
+  padding-bottom: 10px;
+}
+#book-detail .book-review-container {
+  display: flex;
+  font-size: 1.2em;
+  justify-content: flex-end;
+}
+#book-detail .book-review-container .stars {
+  color: rgb(199, 199, 33);
+}
+#book-detail .book-review-container .book-review {
+  margin-left: 5px;
+}
